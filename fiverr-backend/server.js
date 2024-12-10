@@ -43,7 +43,7 @@ io.on('connection', (socket) => {
 });
 
 
-const port = 5000;
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+
+// app.listen(PORT, () => {
+//   console.log(`Server is running on http://localhost:${PORT}`);
+// });
